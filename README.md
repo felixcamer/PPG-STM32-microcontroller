@@ -3,14 +3,13 @@ The bellow video is a short demonstration of a Photoplethysmography (PPG) data a
 
 https://user-images.githubusercontent.com/22806623/190244605-d413236d-70bc-4878-825f-9dd9f621895f.mp4
 
-
 As shown below, the system is composed of a MAX30100 sensor, an STM32F103 MCU, a Bluetooth module and a LCD.
 The MAX30100 communicates with the MCU through an I2C protocol, the BLE communicate with MCU througth UART protocol.
 The segnal acquired by the sensor was passed througth a two digitals filters; a smooth filter and a low-pass filter of cut-off frequency of 10Hz.
 
 As you can see, the system can compute the heart rate and the oxygen level. Algorithms were first written in MATLAB to verify their accuracy and then transferred to the MCU.
 
-![VV](https://user-images.githubusercontent.com/22806623/190266463-85f5e1ec-f8b5-4f55-a769-4e87f904fcd4.png)
+![tyty](https://user-images.githubusercontent.com/22806623/190266753-3b218274-e61f-4678-90fc-2fbd0e43ebaf.png)
 
 The following picture shows the PCB of the system. The board also has the electrocardiogram analog front end ic (ads1292r):
 
