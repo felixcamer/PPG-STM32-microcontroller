@@ -16,3 +16,11 @@ The following picture shows the PCB of the system. The board also has the electr
 
 ![Board](https://user-images.githubusercontent.com/22806623/190245347-27a93313-1051-4f4b-a200-3ace11ae77a5.png)
 
+
+
+
+Software and programming languages used in this project:
+1. Keil 
+2. MATLAB
+3. Altium Designer 
+4. C programming language 
