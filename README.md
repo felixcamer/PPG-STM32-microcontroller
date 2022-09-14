@@ -24,3 +24,4 @@ Software and programming languages used in this project:
 2. MATLAB
 3. Altium Designer 
 4. C programming language 
+![ggg](https://user-images.githubusercontent.com/22806623/190266934-2015b361-04cd-4baa-907d-c861aa6affbe.png)
