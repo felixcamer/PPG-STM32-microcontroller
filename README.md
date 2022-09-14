@@ -8,6 +8,8 @@ As shown below, the system is composed of a MAX30100 sensor, an STM32F103 MCU, a
 The MAX30100 communicates with the MCU through an I2C protocol, the BLE communicate with MCU througth UART protocol.
 The segnal acquired by the sensor was passed througth a two digitals filters; a smooth filter and a low-pass filter of cut-off frequency of 10Hz.
 
+As you can see, the system is able to compute the Heart rate and the oxygen level. All these algorithms were first wrote in MATLAB to verify the accuracy, and then transfered on the MCU.
+
 ![flowchart](https://user-images.githubusercontent.com/22806623/190251729-bbd664c1-b079-40fe-b04c-85ea1584f9f9.png)
 
 
