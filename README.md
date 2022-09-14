@@ -7,9 +7,10 @@ As shown below, the system is composed of a MAX30100 sensor, an STM32F103 MCU, a
 The MAX30100 communicates with the MCU through an I2C protocol, the BLE communicate with MCU througth UART protocol.
 The segnal acquired by the sensor was passed througth a two digitals filters; a smooth filter and a low-pass filter of cut-off frequency of 10Hz.
 
+![ggg](https://user-images.githubusercontent.com/22806623/190266934-2015b361-04cd-4baa-907d-c861aa6affbe.png)
+
 As you can see, the system can compute the heart rate and the oxygen level. Algorithms were first written in MATLAB to verify their accuracy and then transferred to the MCU.
 
-![tyty](https://user-images.githubusercontent.com/22806623/190266753-3b218274-e61f-4678-90fc-2fbd0e43ebaf.png)
 
 The following picture shows the PCB of the system. The board also has the electrocardiogram analog front end ic (ads1292r):
 
@@ -24,4 +25,3 @@ Software and programming languages used in this project:
 2. MATLAB
 3. Altium Designer 
 4. C programming language 
-![ggg](https://user-images.githubusercontent.com/22806623/190266934-2015b361-04cd-4baa-907d-c861aa6affbe.png)
