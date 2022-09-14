@@ -1,5 +1,7 @@
 # PPG-STM32-microcontroller
 In this work, I'm going to do a very short describtion of a Photoplethysmography (PPG) data acquisition device.
+As shown below, the system is composed of a MAX30100 sensor, an STM32F103 MCU and a LCD.
+The MAX30100 communicates with the MCU throught an I2C protocol. 
 
 
 ![flowchart](https://user-images.githubusercontent.com/22806623/190251729-bbd664c1-b079-40fe-b04c-85ea1584f9f9.png)
