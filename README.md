@@ -10,7 +10,7 @@ The segnal acquired by the sensor was passed througth a two digitals filters; a 
 
 As you can see, the system can compute the heart rate and the oxygen level. Algorithms were first written in MATLAB to verify their accuracy and then transferred to the MCU.
 
-![v](https://user-images.githubusercontent.com/22806623/190264890-83fb7ca7-db1d-4032-924d-869457b5fadb.png)
+![VV](https://user-images.githubusercontent.com/22806623/190266463-85f5e1ec-f8b5-4f55-a769-4e87f904fcd4.png)
 
 The following picture shows the PCB of the system. The board also has the electrocardiogram analog front end ic (ads1292r):
 
